@@ -1,0 +1,105 @@
+
+
+.App{
+  min-width: 100vw;
+  min-height: 100vh;
+}
+
+img{
+  width: 20px;
+  height: 20px;
+}
+.container{
+  background: url('./assets/img/IMG_6586.JPG') no-repeat;
+  background-size:  auto 100%  ;
+  background-position: center;
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo{
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.appointment{
+  border: solid 1px white;
+  width: 300px;
+  transition: background 0.3s ease, transform 0.3s ease; /* Плавний перехід для background і transform */
+
+}
+.appointment--img{
+  margin-top: -10px;
+  margin-bottom: -18px;
+  width: 100%;
+  height: auto;
+}
+
+.appointment img {
+  transition: filter 0.3s ease; /* Плавний перехід для фільтра */
+}
+
+.appointment:hover img {
+  filter: invert(1); /* Інвертуємо кольори на ховері */
+}
+
+
+
+.appointment:hover {
+  background: white;
+  transform: scale(1.05); /* Змінюємо scale на transform */
+}
+
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white; /* Білі іконки та текст */
+  font-size: 16px;
+  transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.contact-item:hover {
+  transform: scale(1.05); /* Збільшення на 1.05 при ховері */
+  color: white; /* Колір залишається білим */
+}
+
+.contact-icon {
+ 
+  margin-right: 8px;
+  fill: white; /* Білі іконки */
+}
+
+.contact-item:hover .contact-icon {
+  transform: scale(1.05); /* Збільшення іконок при ховері */
+}
+
+svg{
+  width: 30px;
+  height: 30px;
+  fill: white;
+  margin-right: 5px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+}
