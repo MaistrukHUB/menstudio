@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/menstudio/static/css/main.e3905ac4.css",
-    "main.js": "/menstudio/static/js/main.25630e28.js",
+    "main.css": "/menstudio/static/css/main.2d903f50.css",
+    "main.js": "/menstudio/static/js/main.e087a7ca.js",
     "static/media/IMG_6586.JPG": "/menstudio/static/media/IMG_6586.5eaded6e0f41985e60f6.JPG",
     "static/media/2.png": "/menstudio/static/media/2.866da92b114fcb2a332d.png",
     "static/media/BUTTON.png": "/menstudio/static/media/BUTTON.1b5238eb2b99624cb75b.png",
     "index.html": "/menstudio/index.html",
-    "main.e3905ac4.css.map": "/menstudio/static/css/main.e3905ac4.css.map",
-    "main.25630e28.js.map": "/menstudio/static/js/main.25630e28.js.map"
+    "main.2d903f50.css.map": "/menstudio/static/css/main.2d903f50.css.map",
+    "main.e087a7ca.js.map": "/menstudio/static/js/main.e087a7ca.js.map"
   },
   "entrypoints": [
-    "static/css/main.e3905ac4.css",
-    "static/js/main.25630e28.js"
+    "static/css/main.2d903f50.css",
+    "static/js/main.e087a7ca.js"
   ]
 }
