@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/menstudio/static/css/main.2d903f50.css",
-    "main.js": "/menstudio/static/js/main.e087a7ca.js",
-    "static/media/IMG_6586.JPG": "/menstudio/static/media/IMG_6586.5eaded6e0f41985e60f6.JPG",
-    "static/media/2.png": "/menstudio/static/media/2.866da92b114fcb2a332d.png",
-    "static/media/BUTTON.png": "/menstudio/static/media/BUTTON.1b5238eb2b99624cb75b.png",
-    "index.html": "/menstudio/index.html",
-    "main.2d903f50.css.map": "/menstudio/static/css/main.2d903f50.css.map",
-    "main.e087a7ca.js.map": "/menstudio/static/js/main.e087a7ca.js.map"
+    "main.css": "/static/css/main.362ac0b5.css",
+    "main.js": "/static/js/main.4601f729.js",
+    "static/media/IMG_6586.JPG": "/static/media/IMG_6586.5eaded6e0f41985e60f6.JPG",
+    "static/media/2.png": "/static/media/2.866da92b114fcb2a332d.png",
+    "static/media/BUTTON.png": "/static/media/BUTTON.1b5238eb2b99624cb75b.png",
+    "index.html": "/index.html",
+    "main.362ac0b5.css.map": "/static/css/main.362ac0b5.css.map",
+    "main.4601f729.js.map": "/static/js/main.4601f729.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d903f50.css",
-    "static/js/main.e087a7ca.js"
+    "static/css/main.362ac0b5.css",
+    "static/js/main.4601f729.js"
   ]
 }
