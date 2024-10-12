@@ -48,7 +48,7 @@ const MainBlock = () => {
             href='https://www.instagram.com/karma.menstudio/'
             target='_blank'
             rel='noopener noreferrer'
-            className='contact-item'
+            className='contact-item '
           >
             <svg
               aria-hidden='true'
@@ -64,7 +64,7 @@ const MainBlock = () => {
             karma.menstudio
           </a>
           <a
-            className='contact-item'
+            className='contact-item local'
             href='https://www.google.com/maps/place/%D0%B2%D1%83%D0%BB%D0%B8%D1%86%D1%8F+%D0%92%D0%B0%D1%81%D0%B8%D0%BB%D1%8F+%D0%9F%D0%BE%D1%80%D0%B8%D0%BA%D0%B0,+47,+%D0%92%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%8F,+%D0%92%D1%96%D0%BD%D0%BD%D0%B8%D1%86%D1%8C%D0%BA%D0%B0+%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D1%8C,+21000/@49.2316505,28.4010325,19z/data=!4m6!3m5!1s0x472d5c5a95e4c56f:0x849e159aa2610574!8m2!3d49.2315428!4d28.4016306!16s%2Fg%2F1wg5ws6v?entry=ttu&g_ep=EgoyMDI0MTAwOC4wIKXMDSoASAFQAw%3D%3D'
           >
             <svg
