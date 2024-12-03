@@ -77,7 +77,7 @@ function App() {
             Твій стиль — наша карма! Місце, де стрижка стає мистецтвом
           </p>
           <a
-            href='https://n810092.alteg.io'
+            href='https://n1325697.alteg.io'
             className='booking-button'
           >
             Book Now
