@@ -71,10 +71,11 @@ ul { list-style: none; }
   background: url(./assets/img/IMG_6586.jpg);
   background-position: center;
   background-size: cover;
-  padding: 100px 20px;
+  padding: 100px 0px;
   color: #fff;
 }
 .hero-content-logo{
+  margin-top: 20px;
   max-width: max-content;
   width: 100%;
   margin-bottom: 30px;
@@ -96,7 +97,7 @@ ul { list-style: none; }
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 500px;
+  height: 600px;
   background-size: cover;
   /* padding: 100px 20px; */
   color: #fff;
@@ -143,7 +144,6 @@ text-transform: uppercase;
 
 .services, .about, .contact {
   padding: 40px 20px;
-  margin: 20px 0;
 }
 
 .services h2, .about h2, .contact h2 {
@@ -178,7 +178,7 @@ text-transform: uppercase;
 }
 /* Стилі для секції послуг */
 .services {
-  padding: 50px 20px;
+  padding: 50px 0px;
   text-align: center;
   background-color: #f4f4f4;
 }
