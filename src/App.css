@@ -372,13 +372,14 @@ footer li{
   margin-top: 30px;
 }
 .contact-item-top{
+  font-style: none;
   display: flex;
   color: white;
   width: 100%;
   text-align: center;
   gap: 10px;
   align-items: center;
-  font-style: none;
+  font-style: normal;
 }
 .contact-item-top:not(:first-child){
   margin-top: 10px;
