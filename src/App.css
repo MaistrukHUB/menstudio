@@ -68,7 +68,7 @@ ul { list-style: none; }
 }
 
 .hero {
-  background: url(./assets/img/IMG_6586.JPG);
+  background: url(./assets/img/IMG_6586.jpg);
   background-position: center;
   background-size: cover;
   padding: 100px 20px;
@@ -106,21 +106,20 @@ ul { list-style: none; }
 .booking-button {
   display: inline-block;
 text-transform: uppercase;
-  margin-top: 20px;
   padding: 12px 30px;
   font-size: 18px;
   font-weight: 200;
 
-  color: #fff;
-  background-color: #333;
-  border: none;
+  color: black;
+  background-color: white;
+  border: solid 1px #bcbcbc ;
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s, transform 0.3s ease; /* Одне оголошення transition для двох властивостей */
 }
 
 .booking-button:hover {
-  background-color: #555;
+  background-color: #7c7b7b;
   transform: scale(1.05); /* Масштабування елементу на 5% при наведенні */
 }
 .about{
@@ -251,7 +250,7 @@ text-transform: uppercase;
 }
 
 
-.contact-content {
+.contact-content{
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -302,7 +301,7 @@ text-transform: uppercase;
 
 .contact-item {
   transition:  transform 0.3s ease; /* Одне оголошення transition для двох властивостей */
-    font-style: normal;
+  font-style: normal;
   margin-top: 10px;
   display: flex;
   align-items: center;
@@ -346,4 +345,58 @@ body, html {
 
 footer li{
   margin-top: 5px;
+}
+
+
+.contact-content-top{
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1200px;
+}
+
+
+.contact-info-top {
+  width: 100%;
+  transition:  transform 0.3s ease; /* Одне оголошення transition для двох властивостей */
+  font-style: normal;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  color: white;
+  text-decoration: none;
+  font-size: 16px;
+  margin-top: 30px;
+}
+.contact-item-top{
+  display: flex;
+  color: white;
+  width: 100%;
+  text-align: center;
+  gap: 10px;
+  align-items: center;
+  font-style: none;
+}
+.contact-item-top:not(:first-child){
+  margin-top: 10px;
+}
+
+.contact-item-top svg {
+  fill: white;
+  width: 20px;
+  height: 20px;
+}
+.contact-item:hover {
+  transform: scale(1.05); /* Масштабування елементу на 5% при наведенні */
+}
+
+@media(max-width: 799px){
+  .header{
+    flex-direction: column;
+    padding: 15px 0;
+    gap: 10px;
+  }
 }
