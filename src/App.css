@@ -401,3 +401,14 @@ footer li{
     gap: 10px;
   }
 }
+
+.time{
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 100;
+  margin-top: 20px;
+  
+}
+.time span{
+  font-weight: 700;
+}
