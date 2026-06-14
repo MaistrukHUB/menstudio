@@ -133,7 +133,7 @@ function App() {
             </div>
           </div>
           <p className='time'>
-            Працюємо: з <span>10:00</span> до <span>19:00</span>
+            Працюємо: з <span>9:00</span> до <span>19:00</span>
           </p>
         </div>
       </section>
